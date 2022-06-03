@@ -4,7 +4,7 @@ The `namerator` module provides a function that takes an array of names and
 returns an infinite generator that yields random names based on its input:
 
 ```ts
-import namerator from "./mod.ts";
+import namerator from "https://davidsteinberg.github.io/namerator/mod.ts";
 
 const names = ["Alice", "Alison", "Billy", "Bob", "Carol", "Cassie"];
 const generator = namerator(names);
@@ -24,7 +24,7 @@ You can pass a `unique` flag in an options object to guarantee names are not
 repeated:
 
 ```ts
-import namerator from "./mod.ts";
+import namerator from "https://davidsteinberg.github.io/namerator/mod.ts";
 
 const names = ["Alice", "Bob"];
 const generator = namerator(names, { unique: true });
